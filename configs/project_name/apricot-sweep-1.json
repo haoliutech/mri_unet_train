@@ -34,7 +34,7 @@
     "early_stopping": 50,
     "encoder_name": "efficientnet-b7",
     "encoder_weights": "imagenet",
-    "epochs": 10,
+    "epochs": 2000,
     "include_T1": false,
     "learning_rate": 0.001,
     "log_dce_loss": 10,
@@ -50,6 +50,6 @@
     "random_split": false,
     "valid_batch_size": 6,
     "verbose": false,
-    "workers": 2,
+    "workers": 40,
     "model_name": "apricot-sweep-1.pt"
 }

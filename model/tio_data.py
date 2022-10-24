@@ -47,10 +47,10 @@ class TioData(object):
                             "random_split": False,
                             "valid_batch_size": 1,
                             "verbose": False,
-                            "workers": 4,
+                            "workers": 40,
                             "device" : "cpu",
                             #Hao's editing
-                            "epochs": 10,                            
+                            "epochs": 2000,                            
                             "early_stopping": 50,
                             "callback_log_images_freq": 100,
                             "callback_log_model_freq": 1,   
