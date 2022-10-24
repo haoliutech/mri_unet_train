@@ -1,0 +1,55 @@
+{
+    "CropOrPad": {
+        "target_shape": [
+            224,
+            256,
+            1
+        ]
+    },
+    "Normalization": {
+        "RescaleIntensity": {
+            "out_min_max": [
+                -1,
+                1
+            ],
+            "percentiles": [
+                1,
+                99
+            ]
+        }
+    },
+    "RandomAffine": null,
+    "RandomBiasField": null,
+    "RandomBlur": null,
+    "RandomElasticDeformation": null,
+    "RandomGhosting": null,
+    "RandomMotion": null,
+    "SkipAugmentationProbability": null,
+    "batch_size": 6,
+    "callback_log_images_freq": 100,
+    "callback_log_model_freq": 1,
+    "criterion": "DiceLoss",
+    "dataset_dir": "data/data_organized_1year",
+    "device": "cpu",
+    "early_stopping": 50,
+    "encoder_name": "efficientnet-b7",
+    "encoder_weights": "imagenet",
+    "epochs": 10,
+    "include_T1": false,
+    "learning_rate": 0.001,
+    "log_dce_loss": 10,
+    "log_images": false,
+    "loss_criterion": {
+        "beta": 0.7,
+        "loss_function": "FBetaLoss"
+    },
+    "min_val_loss": 0.25,
+    "model_dir": "data/saved_models",
+    "network_name": "UNet",
+    "optimizer": "sgd",
+    "random_split": false,
+    "valid_batch_size": 6,
+    "verbose": false,
+    "workers": 2,
+    "model_name": "apricot-sweep-1.pt"
+}

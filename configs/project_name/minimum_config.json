@@ -1,0 +1,8 @@
+{
+    "loss_criterion": {
+        "loss_function": "DiceLoss"
+    },
+    "model_dir": "/home/apollo/data/saved_models",
+    "network_name": "UNet",
+    "model_name": "minimum.pt"
+}

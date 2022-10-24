@@ -1,0 +1,12 @@
+numpy
+pandas
+seaborn
+nibabel
+opencv-python
+matplotlib
+tqdm
+Pillow
+scikit-image
+segmentation-models-pytorch
+torch
+torchio

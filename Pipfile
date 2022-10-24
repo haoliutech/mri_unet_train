@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+seaborn = "*"
+nibabel = "*"
+opencv-python = "*"
+matplotlib = "*"
+tqdm = "*"
+pillow = "*"
+scikit-image = "*"
+segmentation-models-pytorch = "*"
+torch = "*"
+torchio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
